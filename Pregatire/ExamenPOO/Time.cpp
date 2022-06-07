@@ -2,10 +2,9 @@
 
 Time::Time(int hours, int minutes, int seconds)
 {
-	if (hours > 24 && hours < 0 || minutes > 60 && minutes < 0 || seconds > 60 && seconds < 0)
+	if (hours > 24 || hours < 0 || minutes > 60 || minutes < 0 || seconds > 60 || seconds < 0)
 	{
-		std::cerr << "Invalid time" << std::endl;
-		exit(-1);
+		throw std::invalid_argument("Invalid time!");
 	}
 	else
 	{

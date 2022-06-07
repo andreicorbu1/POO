@@ -2,6 +2,8 @@
 #include <iostream>
 class baseInfo
 {
+private:
+	double frequency = 0;
 protected:
 	std::string brand, model;
 	double price;
