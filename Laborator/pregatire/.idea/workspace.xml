@@ -15,9 +15,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dd92e41d-b8db-4644-b7a0-7c172d5c0673" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/pregatire.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Pregatire/ExamenPOO/Source.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../Pregatire/ExamenPOO/Source.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -54,11 +52,6 @@
   }
 }</component>
   <component name="RunManager">
-    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="pregatire" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="pregatire" TARGET_NAME="pregatire" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="pregatire" RUN_TARGET_NAME="pregatire">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -76,6 +69,7 @@
       <workItem from="1654088348999" duration="3000" />
       <workItem from="1654421118773" duration="494000" />
       <workItem from="1654421672411" duration="590000" />
+      <workItem from="1654772611258" duration="6000" />
     </task>
     <servers />
   </component>

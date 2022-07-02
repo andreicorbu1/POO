@@ -10,8 +10,7 @@ int main()
 		std::cout << m;
 		std::cin >> m2;
 		std::cout << m2;
-		m3 = m + m2;
-		std::cout << "\n" << m3;
+		std::cout << m + m2;
 	}
 	catch (std::exception& e) // cactch(const char* err_msg) std::cout << err_msg << "\n";
 	{

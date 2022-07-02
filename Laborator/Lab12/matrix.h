@@ -20,7 +20,7 @@ public:
 
 	~matrix();
 
-	matrix<T>& operator=(const matrix<T>& m);
+	//matrix<T>& operator=(const matrix<T>& m);
 
 	matrix<T> operator+(const matrix<T>& m);
 
@@ -144,23 +144,23 @@ matrix<T> matrix<T>::operator+(const matrix<T>& m)
 		throw std::invalid_argument("Matricile nu au aceeasi dimensiune");
 	}
 }
-
-template<typename T>
-matrix<T> &matrix<T>::operator=(const matrix<T> &m)
-{
-	if(size != m.size)
-	{
-		this->deallocate();
-		this->size = m.size;
-		this->allocate();
-	}
-	for (int i = 0; i < this->size; ++i)
-	{
-		for (int j = 0; j < this->size; ++j)
-		{
-			this->data[i][j] = m.data[i][j];
-		}
-	}
-	return *this;
-}
+//
+//template<typename T>
+//matrix<T> &matrix<T>::operator=(const matrix<T> &m)
+//{
+//	if(size != m.size)
+//	{
+//		this->deallocate();
+//		this->size = m.size;
+//		this->allocate();
+//	}
+//	for (int i = 0; i < this->size; ++i)
+//	{
+//		for (int j = 0; j < this->size; ++j)
+//		{
+//			this->data[i][j] = m.data[i][j];
+//		}
+//	}
+//	return *this;
+//}
 

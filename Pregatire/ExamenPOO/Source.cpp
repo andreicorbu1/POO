@@ -7,8 +7,10 @@
 #include "Memory.h"
 
 template<typename T>
-int Count(T* vec, T x, size_t size)
+int Count(T vec[], T x, size_t size)
 {
+	int N = sizeof(vec) / sizeof(vec[0]);
+	std::cout << N << "\n";
 	int ans = 0;
 	for (size_t i = 0; i < size; ++i)
 	{
